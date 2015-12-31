@@ -1,0 +1,16 @@
+{
+  "name": "amd-test",
+  "version": "0.0.1",
+  "description": "AMD Kendo test",
+  "main": "index.js",
+  "repository": "https://github.com/brownieboy/amd-test",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Michael Brown <brownieboy@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "requirejs": "^2.1.22"
+  }
+}

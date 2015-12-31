@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<!-- test-->
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/libs/bootstrap.min.css" />
+    <link href="./css/libs/kendo/kendo.common.min.css" rel="stylesheet" type="text/css" />
+    <link href="./css/libs/kendo/kendo.metro.min.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+    .sortableTable.k-grid tbody tr {
+        cursor: move;
+    }
+    </style>
+</head>
+
+<body>
+    <script type="text/x-kendo-template" id="confirmationWindowTemplate">
+        Delete <strong>#= description #</strong> ? </p>
+        <button class="k-button" id="yesButton">Yes</button>
+        <button class="k-button" id="noButton"> No</button>
+    </script>
+    <div id="main-section" class="col-xs-12 column">
+        <div class="main-section-content row" style="padding-top:2px">
+            <div class="col-md-3 col-sm-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">
+                        Table 09 Accounting Frequency
+                    </h3>
+                    </div>
+                    <div class="panel-body">
+                        <div id="table09" style="width:100%" class="sortableTable"></div>
+                    </div>
+                    <button id="butCommitSort">Commit sort</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br />
+    <br />
+    <div id="divConfirmationWindow"></div>
+    <!-- <button id="butTestPost">Test Post</button> -->
+    <br />
+    <button id="logData">Console.log data</button>
+    <br />
+    <script src="./js/libs/require.js" data-main="./js/app.js"></script>
+    <script src="./js/libs/jquery-1.11.1.min.js"></script>
+    <!-- // <script src="./js/libs/kendo.all.min.js"></script> -->
+<!--     // <script src="./js/paths/apipaths.js"></script>
+    // <script src="./js/admin_tables/table09.js"></script> -->
+</body>
+
+</html>

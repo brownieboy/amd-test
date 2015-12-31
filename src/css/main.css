@@ -1,0 +1,16 @@
+body {
+    padding: 20px;
+}
+
+#placementsubgrid {
+	 display: inline-block;
+    width: 400px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+
+#addplacementrowbutton {
+    display: inline-block;
+    vertical-align: 8px;
+    margin-left: 10px;
+}
